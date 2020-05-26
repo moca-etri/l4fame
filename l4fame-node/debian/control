@@ -1,0 +1,26 @@
+Source: l4fame-node
+Maintainer: Rocky Craig <rocky.craig@hpe.com>
+Uploaders: Keith Packard <keithp@keithp.com>
+Section: metapackages
+Priority: optional
+Origin: HPE
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+
+Package: l4fame-node
+Section: metapackages
+Priority: optional
+Architecture: all
+Depends: linux-image-4.14.0-l4fame-72708-ge6511d981425,
+	libfam-atomic2,
+	libpmem,
+	tm-lfs,
+	${misc:Depends}
+Description: L4FAM(E) node dependencies 
+ This meta package loads all of the extra software necessary to run a
+ node in fabric-attached memory (FAM) systems.  These platforms include
+ emulation (FAME) or real hardware like The Machine or SuperDome Flex.
+ An up-to-date repo can be found at
+ https://downloads.linux.hpe.com/SDR/repo/l4fame/Debian/
+ Source for all packages is at
+ https://github.com/FabricAttachedMemory
