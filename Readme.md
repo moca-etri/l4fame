@@ -1,6 +1,6 @@
 # Global memory pool experiment with HPE FAME(Fabric-Attached Memory Emulation, aka l4fame) and Gzd0.7 FPGA board
 
-#### This source tree is to provide a global memory pool evaluation platform with a H/W in the loop simulator.
+#### This source tree is to provide a global memory pool evaluation platform with a Gen-Z H/W board in the loop.
 #### With a large remote memory pool, one can access a single shared memory pool.
 #### This experimental setup is based on HPE FAME(Fabric Attached Memory Emulation) S/W and Gen-Z evaluation board.
 
